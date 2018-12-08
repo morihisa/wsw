@@ -17,6 +17,8 @@ $ python3 ./make-wsw.py access_log
 正常終了した場合、実行したプログラムと同じディレクトリに index.html ファイルが作成されます。このファイルをブラウザで表示すると、Wall of Sheep のような情報を見ることができます。
 
 # 表示される情報
+アクセスログを読み込んで、最後から「MAX_DISPLAY_NUM」個数分の下記の情報を表示します。
+
 - Attacker IP: 攻撃者の IP アドレスです。
 - Target Port: アクセス対象のホストのポート番号です。
 - Path: アクセス対象のパスです。
